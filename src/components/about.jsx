@@ -11,10 +11,12 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
+                    <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a computer grad student from DAIICT-Gandhinagar with ICT as my major.I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years (apart from the headphone-jack part!!)</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p>
+                    <p>I am an undergraduate at the University of Oregon double majoring in Computer and Information Science and Music.  I'm also enrolled in the Clark Honors College - 
+                        I love to read and write, learn new things, and have engaging conversations.
+                    </p>
+                    <p>I am a programmer and composer who believes in being efficient, flexible, reliable, and creative. </p>
                     </div>
                 </div>
                 </div>
@@ -27,7 +29,7 @@ export default class About extends Component {
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <h2 className="colorlib-heading">Here are some of my skills</h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -38,7 +40,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <p>I have experience building websites and chrome extentions using JavaScript, React, HTML, and CSS</p>
                 </div>
                 </div>
             </div>
@@ -49,7 +51,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <p>As a CIS student, I have a good grasp over fundamental concepts of DSA</p>
                 </div>
                 </div>
             </div>
@@ -60,7 +62,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <p>Nope</p>
                 </div>
                 </div>
             </div>
