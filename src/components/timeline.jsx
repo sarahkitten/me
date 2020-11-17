@@ -22,7 +22,9 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Internship at the Social Security Administration <span>2018-2019</span></h2>
-                        <p>I spent the summers of 2018 and 2019 working at the Social Security Administration field office in Beaverton, Oregon.</p>
+                        <p>I spent the summers of 2018 and 2019 working at the Social Security Administration field office in Beaverton, Oregon.
+                        I assisted with generating and mailing forms, operating office machines, filing and sorting documents, organizing the office, and placing and answering phone calls.
+                        </p>
                       </div>
                     </div>
                   </article>
