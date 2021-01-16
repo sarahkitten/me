@@ -16,7 +16,6 @@ export default class About extends Component {
                     <p>I am an undergraduate at the University of Oregon double majoring in Computer and Information Science and Music.  I'm also enrolled in the Clark Honors College - 
                         I love to read and write, learn new things, and have engaging conversations.
                     </p>
-                    <p>I am a programmer and composer who believes in being efficient, flexible, reliable, and creative. </p>
                     </div>
                 </div>
                 </div>
@@ -36,33 +35,34 @@ export default class About extends Component {
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-code-outline" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript, React, HTML, and CSS</p>
+                    <h3>Programming </h3>
+                    <p>I have experience coding in Python, C, C++, C#, and Java, and I'm proficient with Git, Windows, and Linux/Unix.  
+                        I've also worked on websites using JavaScript, React, HTML, and CSS.</p>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
-                    <i className="icon-phone3" />
+                    <i className="icon-flow-children" />
                 </span>
                 <div className="desc">
                     <h3>Data Structures & Algorithms</h3>
-                    <p>As a CIS student, I have a good grasp over fundamental concepts of DSA</p>
+                    <p>As a CIS student, I have a good grasp over fundamental concepts of DSA.</p>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-data" />
+                    <i className="icon-pen2" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Nope</p>
+                    <h3>Communication</h3>
+                    <p>I am an experienced written and oral communicator, and I prioritize efficiency and clarity.</p>
                 </div>
                 </div>
             </div>

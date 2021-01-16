@@ -11,13 +11,13 @@ export default class Sidebar extends Component {
               <div className="author-img" style={{backgroundImage: 'url(images/me-3.jpg)'}} />
               <h1 id="colorlib-logo"><a href="index.html">Sarah Kitten</a></h1>
               <span className="email"><i className="icon-mail"></i> sarahnkitten@gmail.com</span>
+              <br></br>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  <li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>
+                  <li><a href="#" data-nav-section="projects">CIS Projects</a></li>
                 </ul>
               </div>
             </nav>
