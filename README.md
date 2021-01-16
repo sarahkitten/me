@@ -9,3 +9,10 @@ This is the implementaion code for the blog I have written '[How to create your 
   - run `npm start` to start the service on `localhost:3000`
     
 ##### deployed app : https://dbarochiya.github.io/me/
+
+To deploy:
+npm install gh-pages
+npm run deploy 
+
+To automate:
+https://www.freecodecamp.org/news/learn-how-to-automate-deployment-on-github-pages-with-travis-ci/
