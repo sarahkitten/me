@@ -11,7 +11,7 @@ This is the implementaion code for the blog I have written '[How to create your 
 ##### deployed app : https://dbarochiya.github.io/me/
 
 To deploy:
-npm install gh-pages
+npm install gh-pages,
 npm run deploy 
 
 To automate:
