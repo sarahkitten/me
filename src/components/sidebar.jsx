@@ -17,7 +17,7 @@ export default class Sidebar extends Component {
               <div id="navbar" className="collapse">
                 <ul>
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  <li><a href="#" data-nav-section="projects">CIS Projects</a></li>
+                  <li><a href="#" data-nav-section="projects">Projects</a></li>
                 </ul>
               </div>
             </nav>
