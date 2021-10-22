@@ -13,8 +13,9 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am an undergraduate at the University of Oregon double majoring in Computer and Information Science and Music.  I'm also enrolled in the Clark Honors College - 
-                        I love to read and write, learn new things, and have engaging conversations.
+                    <p>I am an undergraduate at the University of Oregon double majoring in Computer and Information Science and Music - I'm also enrolled in the Clark Honors College.
+                           I'm currectly working on my undergraduate thesis, preparing my summer research for conference submission, and 
+                          looking for a summer 2022 software development internship.
                     </p>
                     </div>
                 </div>
@@ -50,8 +51,14 @@ export default class About extends Component {
                     <i className="icon-flow-children" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As a CIS student, I have a good grasp over fundamental concepts of DSA.</p>
+                    <h3>CS Fundamentals</h3>
+                    <p>
+                    During my undergraduate studies, I have completed coursework in 
+                        Intermediate Data Structures, 
+                        Intermediate Algorithms, 
+                        Computer Organization, and
+                        Software Methodology.
+                    </p>
                 </div>
                 </div>
             </div>
@@ -62,7 +69,10 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Communication</h3>
-                    <p>I am an experienced written and oral communicator, and I prioritize efficiency and clarity.</p>
+                    <p>I prioritize clean documentation and clear team communication.  
+                        In my honors college courses, I have written and presented on everything from 
+                        data sonification to the ancient history of madness.
+                    </p>
                 </div>
                 </div>
             </div>
