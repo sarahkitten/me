@@ -59,6 +59,8 @@ export default class Timeline extends Component {
                         </p>
                         <p className="icon">
 												<span><a href="https://youtu.be/6SClQqPEGh0">See Video</a></span>
+                        <br></br>
+                        <span><a href="https://cs.rit.edu/~snkreu/Homepage.html">See Website</a></span>
 											</p>
                       </div>
                     </div>

@@ -15,9 +15,9 @@ class App extends Component {
          	<Sidebar></Sidebar>
 				<div id="colorlib-main">
 					<Introduction></Introduction>
+          <Projects></Projects>
 					<About></About>
           <Timeline></Timeline>
-          <Projects></Projects>
           	</div>
       	</div>
       </div>
