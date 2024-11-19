@@ -9,9 +9,52 @@ export default class Projects extends Component {
 						<div className="row">
 							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 								<span className="heading-meta">My Work</span>
-								<h2 className="colorlib-heading animate-box">Recent Projects</h2>
+								<h2 className="colorlib-heading animate-box">I've worked on...</h2>
 							</div>
 						</div>
+
+						<div className="row">
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+									<div className="project" style={{backgroundImage: 'url(images/IntegrationsAndAgents.png)'}}>
+										<div className="desc">
+											<div className="con">
+												<h3><a href="work.html">New Relic Integrations and Agents</a></h3>
+												<span>New Relic's marketplace for finding and installing integrations and agents.
+												Worked on an Agile team to fully overhaul the UI, resulting in faster load times
+												and more clicks, and to implement a new "Installed" tab for navigating through 
+												already-installed agents.
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+								<div className="project" style={{backgroundImage: 'url(images/SYS2.png)'}}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">New Relic Onboarding</a></h3>
+											<span>Developed and maintained New Relic's onboarding flow using 
+												React and Typesccript in a micro-frontend architecture.  
+												Maintained an Elixir service upholding a 99.99% uptime SLA.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
+								<div className="project" style={{backgroundImage: 'url(images/IF2.png)'}}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">New Relic Install Framework</a></h3>
+											<span>
+											Collaboratively engineered a declarative UI framework to convert YAML configurations into 
+											dynamic installation instructions, used in 200+ workflows with 32,000 monthly active users.
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 									<div className="project" style={{backgroundImage: 'url(images/btntask.png)'}}>
@@ -20,12 +63,12 @@ export default class Projects extends Component {
 												<h3><a href="work.html">Webcam Eye Tracker</a></h3>
 												<span>Web-based eye tracking screen magnifier using JS/HTML/CSS.
 												Designed and helped conduct two experiments for evaluating usability for people with low vision.
-												See my video, which won the REU's "Best Project Visual" award, or try it yourself.
+												See my video, which won the REU's "Best Project Visual" award.
 												</span>
 												<p className="icon">
 													<span><a href="https://github.com/sarahkitten/webcam-gaze-magnifier"><i className="icon-github" /></a></span>
 													<span><a href="https://youtu.be/6SClQqPEGh0">See Video</a></span>
-													<span><a href="https://cs.rit.edu/~snkreu/Homepage.html">See Website</a></span>
+													{/* <span><a href="https://cs.rit.edu/~snkreu/Homepage.html">See Website</a></span> */}
 												</p>
 											</div>
 										</div>
@@ -63,53 +106,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 						</div>
-						<div className="row">
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/gmapstemp.png)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Route Optimization App</a></h3>
-											<span>Flask web app which uses genetic algorithms and the Google Maps API to generate near-optimal routes
-												 among multiple destinations.  More details coming soon.
-											</span>
-											<p className="icon">
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/werepire.png)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Revenge of the Zombie Werepire</a></h3>
-											<span>2D platformer game using Unity and C#.  
-												Implemented game systems for movement, combat, health, collectables, checkpoints, and progression.
-											</span>
-											<p className="icon">
-												<span><a href="https://github.com/trashknight/Spooky-Platformer"><i className="icon-github" /></a></span>
-												<span><a href="https://simmer.io/@katares/revenge-of-the-zombie-werepire-beta">Play Online</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/Sudoku-partial.png)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Sudoku Solver</a></h3>
-											<span>Python Sudoku solver which implements constraint propagation to solve simple puzzles 
-												and back-tracking search to solve harder puzzles.
-											</span>
-											<p className="icon">
-												<span><a href="https://github.com/sarahkitten/Sudoku-Solver"><i className="icon-github" /></a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+
 						{/*<div className="row">
 							<div className="col-md-12 animate-box">
 								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>

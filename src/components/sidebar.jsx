@@ -26,9 +26,9 @@ export default class Sidebar extends Component {
                 <li><a href="https://github.com/sarahkitten" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/sarah-kitten/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://soundcloud.com/sarah-kitten-140422036" target="_blank" rel="noopener noreferrer"><i className="icon-soundcloud2" /></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100007689104997" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
+                {/* <li><a href="https://www.facebook.com/profile.php?id=100007689104997" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li> */}
                 {/*<li><a href="https://twitter.com/ddbarochiya" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>*/}
-                <li><a href="https://www.instagram.com/sarahnkitten/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
+                {/* <li><a href="https://www.instagram.com/sarahnkitten/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li> */}
                 {/*<li><a href="https://medium.com/@dhruv.barochia34788" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li>*/}
               </ul>
             </nav>
