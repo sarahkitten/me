@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 export default class Blog extends Component {
+  handleBlogClick = (blogUrl, title) => (e) => {
+    e.preventDefault();
+    this.props.openPDFModal(blogUrl, title);
+  }
+
   render() {
     return (
       <div>
@@ -15,35 +20,45 @@ export default class Blog extends Component {
 				<div className="row">
 					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 					<div className="blog-entry">
-						<a href="blog.html" className="blog-img"><img src="images/blog-1.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+						<a href="#" onClick={this.handleBlogClick("https://docs.google.com/document/d/1W0YnPBSd0aAbFkKMOXJmM6ZSADa5N_Zq8QbnGYuLilA/preview", "AI and the Weird New Authenticity")} className="blog-img"><img src="images/auth.png" className="img-responsive" alt="Blog post" /></a>
 						<div className="desc">
-							<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-							<h3><a href="blog.html">Sarah Kirkland Snider</a></h3>
-							<p>A blog post I will write</p>
+							<span><small> AI musings </small></span>
+							<h3><a href="#" onClick={this.handleBlogClick("https://docs.google.com/document/d/1W0YnPBSd0aAbFkKMOXJmM6ZSADa5N_Zq8QbnGYuLilA/preview", "AI and the Weird New Authenticity")}>AI and the Weird New Authenticity</a></h3>
+							<p>From cover letters to creative writing, a fear of ‘sounding like AI’ might free us to sound more like ourselves.</p>
 						</div>
 					</div>
 					</div>
 					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 					<div className="blog-entry">
-						<a href="blog.html" className="blog-img"><img src="images/blog-2.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+						<a href="#" onClick={this.handleBlogClick("https://docs.google.com/document/d/169ReY6VdTccMRODsA3jkK3amQzYXfcLjoU7bNSl3xFY/preview", "AI Music Composers are Learning to Work with Humans")} className="blog-img"><img src="images/music.png" className="img-responsive" alt="Blog post" /></a>
 						<div className="desc">
-							<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-							<h3><a href="blog.html">AI composers</a></h3>
-							<p>AI composer article</p>
+							<span><small> Tech and Music </small></span>
+							<h3><a href="#" onClick={this.handleBlogClick("https://docs.google.com/document/d/169ReY6VdTccMRODsA3jkK3amQzYXfcLjoU7bNSl3xFY/preview", "AI Music Composers are Learning to Work with Humans")}>AI Music Composers are Learning to Work with Humans</a></h3>
+							<p>The researchers behind the A.I. album “Hello World” reflect on the decade-long Flow Machines project and the future of human-machine collaboration in music.</p>
 						</div>
 					</div>
 					</div>
 					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 					<div className="blog-entry">
-						<a href="blog.html" className="blog-img"><img src="images/blog-3.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+						<a  className="blog-img"><img src="images/blog-1.jpg" className="img-responsive" alt="Blog post" /></a>
 						<div className="desc">
-							<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-							<h3><a href="blog.html">Eighth Grade</a></h3>
-							<p>My Eighth Grade paper thing</p>
+							<span><small>Coming Soon</small> | <small> Frontend Development </small></span>
+							<h3><a href="#" >AI-Assisted Frontend Development</a></h3>
+							<p>How I'm using AI tools to accelerate frontend development workflows and increase code quality at scale.</p>
 						</div>
 					</div>
 					</div>
 				</div>
+					{/* <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+					<div className="blog-entry">
+						<a href="#" onClick={this.handleBlogClick("", "AI-Assisted Frontend Development")} className="blog-img"><img src="images/blog-1.jpg" className="img-responsive" alt="Blog post" /></a>
+						<div className="desc">
+							<span><small>Coming Soon</small> | <small> Frontend Development </small></span>
+							<h3><a href="#" onClick={this.handleBlogClick("", "AI-Assisted Frontend Development")}>AI-Assisted Frontend Development</a></h3>
+							<p>How I'm using AI tools to accelerate frontend development workflows and increase code quality at scale.</p>
+						</div>
+					</div>
+					</div> */}
 				{/*<div className="row">
 					<div className="col-md-12 animate-box">
 					<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>

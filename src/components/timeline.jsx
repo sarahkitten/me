@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
 
 export default class Timeline extends Component {
+  handleResumeClick = (e) => {
+    e.preventDefault();
+    // Replace this URL with your actual resume PDF URL
+    const resumePDFUrl = "https://docs.google.com/document/d/1gzqLIx1UBdQGeVXgIquVJL9VbYfEhzgd6AtO_fJ7PCg/preview";
+    this.props.openPDFModal(resumePDFUrl, "Sarah Kitten - Resume");
+  }
+
   render() {
     return (
       <div>
@@ -15,20 +22,43 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
-                  {/* <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                  <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-briefcase3" />
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-3">
+                        <i className="icon-code" />
                       </div>
                       <div className="timeline-label">
-                      <h2>Internship @ Social Security Administration <span>2018-2019</span></h2>
-                        <p>I spent the summers of 2018 and 2019 working at the Social Security Administration field office in Beaverton, Oregon.
-                        I assisted with generating and mailing forms, operating office machines, filing and sorting documents, organizing the office, 
-                        and placing and answering phone calls.
+                        <h2>Software Engineer @ Visa Inc. <span>Feb 2025 – Present</span></h2>
+                        <p>I'm currently working at Visa, where I'm developing the React/TypeScript frontend platform for Visa's Verifi One payment dispute solution. 
+                          One of the things I'm most excited about is introducing a new AI-assisted frontend development workflow that's increased our delivery speed by 40%. 
+                          I've been leading frontend context engineering across the organization by creating and refining AI memory banks for all frontend projects, 
+                          and it's been amazing to see the adoption across 200+ engineers and stakeholders through my weekly demos. 
+                          I've also been modernizing legacy codebases using AI-assisted workflows to convert JavaScript to TypeScript and boost unit test coverage from 20% to 80%.
+                        </p>
+                        <p className="icon">
+                          <span><a href="#" onClick={this.handleResumeClick}>View Resume</a></span>
                         </p>
                       </div>
                     </div>
-                  </article> */}
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-code" />
+                      </div>
+                      <div className="timeline-label">
+                      <h2>Software Engineer @ New Relic <span>2022-2025</span></h2>
+                        <p>At New Relic, I worked with a high-performing Agile team of 11 engineers to plan, develop, and deliver new React/Typescript UI experiences.
+                        I personally led the end-to-end planning and execution of multiple features - I authored and managed Jira tickets, facilitated scrum processes, 
+                        and provided regular updates to stakeholders, and I produced comprehensive DACIs, CDDs, feature plans, diagrams, A/B tests, and documentation.
+                        I was recognized by management for taking initiative and consistently delivering high-quality work.
+                        </p>
+                        <p className="icon">
+												<span><a href="#" onClick={this.handleResumeClick}>View Resume</a></span>
+											</p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                   <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
@@ -46,7 +76,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-6">
                         <i className="icon-eye-outline" />
@@ -61,24 +91,6 @@ export default class Timeline extends Component {
                         </p>
                         <p className="icon">
 												<span><a href="https://youtu.be/6SClQqPEGh0">See Video</a></span>
-											</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                  <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-code" />
-                      </div>
-                      <div className="timeline-label">
-                      <h2>Software Engineer @ New Relic <span>2022-2024</span></h2>
-                        <p>At New Relic, I worked with a high-performing Agile team of 11 engineers to plan, develop, and deliver new React/Typescript UI experiences.
-                        I personally led the end-to-end planning and execution of multiple features - I authored and managed Jira tickets, facilitated scrum processes, 
-                        and provided regular updates to stakeholders, and I produced comprehensive DACIs, CDDs, feature plans, diagrams, A/B tests, and documentation.
-                        I was recognized by management for taking initiative and consistently delivering high-quality work.
-                        </p>
-                        <p className="icon">
-												<span><a href="https://docs.google.com/document/d/1lyIFWhrpZbg1onKTt4pz1PDeLQihTiSXocspnYsWP0k/edit?usp=sharing">View Resume</a></span>
 											</p>
                       </div>
                     </div>

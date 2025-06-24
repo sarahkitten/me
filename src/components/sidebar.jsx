@@ -18,6 +18,7 @@ export default class Sidebar extends Component {
                 <ul>
                 <li><a href="#" data-nav-section="projects">Projects</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
+                  <li><a href="#" data-nav-section="blog">Blog</a></li>
              </ul>
               </div>
             </nav>
